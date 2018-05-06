@@ -1,0 +1,4 @@
+[submodule "adsis8300fc"]
+	path = adsis8300fc
+	url = https://github.com/hinxx/adsis8300fc
+	ignore = all
