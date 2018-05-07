@@ -50,6 +50,9 @@ SOURCES += $(APPSRC)/fc.cpp
 DBDS    += $(APPSRC)/fcSupport.dbd
 
 
+TEMPLATES += $(wildcard $(APPDB)/*.db)
+
+
 ## This RULE should be used in case of inflating DB files 
 ## db rule is the default in RULES_DB, so add the empty one
 ## Please look at e3-mrfioc2 for example.
